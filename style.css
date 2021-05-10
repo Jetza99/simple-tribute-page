@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+#title{
+    text-align: center;   
+    font-family: sans-serif; 
+    color: rgb(56, 56, 56);
+}
+p{
+    text-align: center;
+    font-family: sans-serif; 
+    color: rgb(34, 34, 34);
+}
+
+#div-img{
+    display: block;
+
+    position: absolute;
+    left: 50%;
+    height: auto;
+    transform: translate(-50%, 0);
+    background-color: white;
+    padding: 3% 9% 0 9%;   
+}
+
+#img-caption{
+    font-size: 14px;
+}
+
+#second_title {
+    display: block;
+}
