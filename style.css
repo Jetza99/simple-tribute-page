@@ -1,7 +1,12 @@
 body{
-    background-color: rgb(233, 233, 233);
+    
 }
 
+main{
+    background-color: rgb(233, 233, 233);
+    padding: 40px 25px 0 25px;
+    margin-top: 30px;
+}
 
 
 #title{
@@ -15,21 +20,57 @@ p{
     color: rgb(34, 34, 34);
 }
 
-#div-img{
-    display: block;
-
-    position: absolute;
-    left: 50%;
-    height: auto;
-    transform: translate(-50%, 0);
+#img-div{
     background-color: white;
-    padding: 3% 9% 0 9%;   
+    padding: 3% 9% 10px 9%;   
+
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #img-caption{
     font-size: 14px;
 }
 
-#second_title {
+#second_title{
+    text-align: center;
+    margin: 5% 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+li{
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+span{
+    font-weight: 600;
+}
+
+#tribute-info{
+    padding: 0 25%;
+}
+
+.quote, .quoter{
+    text-align: left;
     display: block;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.quoter {
+    margin-top: 5%;
+}
+
+.footer {
+    padding-bottom: 8vh;
+    color: rgb(46, 46, 46);
 }
